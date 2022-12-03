@@ -1,5 +1,5 @@
 module.exports = (data) => {
-    data.hello = "Hello World!";
+    data.URL = "https://dev-bot-platform.corezoid.com/webhooks/get-weather?city={{city}}";
 
     return data;
 };
